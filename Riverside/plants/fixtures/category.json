@@ -1,0 +1,47 @@
+[
+    { 
+        "model" : "plants.Category", 
+        "pk": "1", 
+        "fields" : {"name": "Tree"}
+    }, 
+    { 
+        "model" : "plants.Category", 
+        "pk": "2", 
+        "fields" : {"name": "Shrub"}
+    }, 
+    { 
+        "model" : "plants.Category", 
+        "pk": "3", 
+        "fields" : {"name": "Perennial"}
+    }, 
+    { 
+        "model" : "plants.Category", 
+        "pk": "4", 
+        "fields" : {"name": "Edible"}
+    }, 
+    { 
+        "model" : "plants.Category", 
+        "pk": "5", 
+        "fields" : {"name": "Bush"}
+    }, 
+    { 
+        "model" : "plants.Category", 
+        "pk": "6", 
+        "fields" : {"name": "Bramble"}
+    }, 
+    { 
+        "model" : "plants.Category", 
+        "pk": "7", 
+        "fields" : {"name": "Biennial"}
+    }, 
+    { 
+        "model" : "plants.Category", 
+        "pk": "8", 
+        "fields" : {"name": "Annual"}
+    },
+    { 
+        "model" : "plants.Category", 
+        "pk": "9", 
+        "fields" : {"name": "None"}
+    }
+]

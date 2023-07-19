@@ -1,0 +1,169 @@
+{% extends 'base.html'%}
+{% load static %}
+ 
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<!-- Carousel Images -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card text-white">
+        <img src="{% static 'img/plant_1.jpg' %}" alt="Slide 1" height=400 width=100%  style="object-fit: cover;">
+        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.5)">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="card-title">Riverside Greenhouse</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card text-white">
+        <img src="{% static 'img/flowers.jpg' %}" alt="Slide 2" height=400 width=100%  style="object-fit: cover;">
+        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.5)">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="card-title">Riverside Greenhouse</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card text-white">
+        <img src="{% static 'img/small_plants.jpg' %}" alt="Slide 3" height=400 width=100%  style="object-fit: cover;">
+        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.5)">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Riverside Greenhouse</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<div class="p-2 m-2 pb-3">
+  <!-- What We Do Section -->
+  <div class="container ml-sm-3 ml-lg-auto">
+      <h3 class="text-center">What We Do</h3>
+
+        <div class="row p-2">
+            <div class="col-lg-8 col-m-6 col-sm-6 pb-3">
+                <p>
+                    Welcome to our greenhouse, where we cultivate an abundance of healthy and vibrant plants. 
+                    Our mission is to provide our customers with the highest quality plants, while reducing 
+                    our environmental impact and promoting sustainable farming practices.
+                </p>
+                <p>
+                    Our greenhouse is equipped with state-of-the-art technology, allowing us to maintain a 
+                    controlled environment that optimizes plant growth and health. From exotic flowers to 
+                    fresh herbs, we grow a wide variety of plants using natural and sustainable methods.
+                </p>
+                <p>
+                    We are passionate about preserving the environment and reducing our carbon footprint. 
+                    That's why we use eco-friendly materials, such as organic soil and natural fertilizers, 
+                    to nurture our plants. We also implement energy-efficient practices, including solar power 
+                    and water recycling, to minimize our environmental impact.
+                </p>
+                <p>
+                    Our team of expert horticulturists and plant enthusiasts are committed to providing our 
+                    customers with exceptional service and care. Whether you're an experienced gardener or 
+                    just starting out, we're here to offer advice and support to help you cultivate a thriving garden.
+                </p>
+            </div>
+            <div class="col-lg-4 col-m-6 col-sm-6">
+                <img src="{% static 'img/round_plants.jpg' %}" width=100%% height=350 style="object-fit: cover !important; gap=15px;">
+            </div>
+        </div>
+
+      <!-- Our Missoin -->
+      <h3 class="text-center pt-2">Our Mission</h3>
+
+      <div class="row p-2">
+          <div class="col-lg-4 col-m-6 col-sm-6 pb-3">
+              <img src="{% static 'img/long_plant.jpg' %}" width=100%% height=350 style="object-fit: cover !important; gap=15px;">
+          </div>
+          <div class="col-lg-8 col-m-6 col-sm-6">
+              <p>
+                  Welcome to our greenhouse, where we cultivate an abundance of healthy and vibrant plants. 
+                  Our mission is to provide our customers with the highest quality plants, while reducing 
+                  our environmental impact and promoting sustainable farming practices.
+              </p>
+              <p>
+                  Our greenhouse is equipped with state-of-the-art technology, allowing us to maintain a 
+                  controlled environment that optimizes plant growth and health. From exotic flowers to 
+                  fresh herbs, we grow a wide variety of plants using natural and sustainable methods.
+              </p>
+              <p>
+                  We are passionate about preserving the environment and reducing our carbon footprint. 
+                  That's why we use eco-friendly materials, such as organic soil and natural fertilizers, 
+                  to nurture our plants. We also implement energy-efficient practices, including solar power 
+                  and water recycling, to minimize our environmental impact.
+              </p>
+              <p>
+                  Our team of expert horticulturists and plant enthusiasts are committed to providing our 
+                  customers with exceptional service and care. Whether you're an experienced gardener or 
+                  just starting out, we're here to offer advice and support to help you cultivate a thriving garden.
+              </p>
+          </div>
+      </div>
+
+      <h3 class="text-center">About Us</h3>
+
+      <div class="row m-2">
+        <div>
+          <p>
+              Welcome to our greenhouse, where we cultivate an abundance of healthy and vibrant plants. 
+              Our mission is to provide our customers with the highest quality plants, while reducing 
+              our environmental impact and promoting sustainable farming practices.
+          </p>
+          <p>
+              Our greenhouse is equipped with state-of-the-art technology, allowing us to maintain a 
+              controlled environment that optimizes plant growth and health. From exotic flowers to 
+              fresh herbs, we grow a wide variety of plants using natural and sustainable methods.
+          </p>
+          <p>
+              We are passionate about preserving the environment and reducing our carbon footprint. 
+              That's why we use eco-friendly materials, such as organic soil and natural fertilizers, 
+              to nurture our plants. We also implement energy-efficient practices, including solar power 
+              and water recycling, to minimize our environmental impact.
+          </p>
+          <p>
+              Our team of expert horticulturists and plant enthusiasts are committed to providing our 
+              customers with exceptional service and care. Whether you're an experienced gardener or 
+              just starting out, we're here to offer advice and support to help you cultivate a thriving garden.
+          </p>
+          <p>
+              At our greenhouse, we believe in the healing power of plants and the positive impact they 
+              have on our well-being. That's why we're dedicated to providing our customers with the 
+              freshest, healthiest plants available. Come visit us and discover the beauty and benefits 
+              of our greenhouse-grown plants
+          </p>
+        </div>
+
+      </div>
+
+  </div>
+</div>
+
+
+
+
+{% endblock %}

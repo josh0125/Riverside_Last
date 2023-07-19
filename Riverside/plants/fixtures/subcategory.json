@@ -1,0 +1,182 @@
+[
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "1", 
+        "fields" : {"name": "Ornamental"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "2", 
+        "fields" : {"name": "Fruit"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "3", 
+        "fields" : {"name": "Edible"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "4", 
+        "fields" : {"name": "Native"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "5", 
+        "fields" : {"name": "Border"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "6", 
+        "fields" : {"name": "Ground Cover"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "7", 
+        "fields" : {"name": "Rock Star"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "8", 
+        "fields" : {"name": "Grandma's Garden"}
+    },
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "9", 
+        "fields" : {"name": "Daisy"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "10", 
+        "fields" : {"name": "Wild Flower"}
+    },
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "11", 
+        "fields" : {"name": "Woodland"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "12", 
+        "fields" : {"name": "Waterside"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "13", 
+        "fields" : {"name": "Shrub"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "14", 
+        "fields" : {"name": "Grass"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "15", 
+        "fields" : {"name": "Invasive"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "16", 
+        "fields" : {"name": "Bush"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "17", 
+        "fields" : {"name": "Foliage"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "18", 
+        "fields" : {"name": "Spreader"}
+    },
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "19", 
+        "fields" : {"name": "Lily"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "20", 
+        "fields" : {"name": "Rock"}
+    },
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "21", 
+        "fields" : {"name": "Tender Perennial"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "22", 
+        "fields" : {"name": "Dwarf"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "23", 
+        "fields" : {"name": "Edging"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "24", 
+        "fields" : {"name": "Succulent"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "25", 
+        "fields" : {"name": "Vegetable"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "26", 
+        "fields" : {"name": "Root Vegetable"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "27", 
+        "fields" : {"name": "Herb"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "28", 
+        "fields" : {"name": "Perennial"}
+    },
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "29", 
+        "fields" : {"name": "Vine"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "30", 
+        "fields" : {"name": "Berry Bush"}
+    },
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "31", 
+        "fields" : {"name": "Bramble"}
+    },
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "32", 
+        "fields" : {"name": "Climber"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "33", 
+        "fields" : {"name": "Filler"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "34", 
+        "fields" : {"name": "Spiller"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "35", 
+        "fields" : {"name": "Center"}
+    }, 
+    { 
+        "model" : "plants.Subcategory", 
+        "pk": "36", 
+        "fields" : {"name": "None"}
+    }
+]

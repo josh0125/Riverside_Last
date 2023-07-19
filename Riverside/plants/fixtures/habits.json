@@ -1,0 +1,152 @@
+[
+    { 
+        "model" : "plants.Habit", 
+        "pk": "1", 
+        "fields" : {"description": "Oval"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "2", 
+        "fields" : {"description": "Upright"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "3", 
+        "fields" : {"description": "Spreading"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "4", 
+        "fields" : {"description": "Non-Spreading"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "5", 
+        "fields" : {"description": "Vase-Shaped"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "6", 
+        "fields" : {"description": "Rounded"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "7", 
+        "fields" : {"description": "Vigorous"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "8", 
+        "fields" : {"description": "Mounding"}
+    },
+    { 
+        "model" : "plants.Habit", 
+        "pk": "9", 
+        "fields" : {"description": "Semi-Mound"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "10", 
+        "fields" : {"description": "R"}
+    },
+    { 
+        "model" : "plants.Habit", 
+        "pk": "11", 
+        "fields" : {"description": "Trailing"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "12", 
+        "fields" : {"description": "Semi-Trailing"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "13", 
+        "fields" : {"description": "Clumping"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "14", 
+        "fields" : {"description": "Vining"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "15", 
+        "fields" : {"description": "Spreading"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "16", 
+        "fields" : {"description": "Low Spreading"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "17", 
+        "fields" : {"description": "Bulb"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "18", 
+        "fields" : {"description": "Spreader"}
+    },
+    { 
+        "model" : "plants.Habit", 
+        "pk": "19", 
+        "fields" : {"description": "Root Crop"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "20", 
+        "fields" : {"description": "Compact"}
+    },
+    { 
+        "model" : "plants.Habit", 
+        "pk": "21", 
+        "fields" : {"description": "Bush"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "22", 
+        "fields" : {"description": "Semi-Bush"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "23", 
+        "fields" : {"description": "Determinate"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "24", 
+        "fields" : {"description": "Indeterminate"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "25", 
+        "fields" : {"description": "Semi-Determinate"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "26", 
+        "fields" : {"description": "Varies"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "27", 
+        "fields" : {"description": "Trailing"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "28", 
+        "fields" : {"description": "Assym"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "29", 
+        "fields" : {"description": "Pyramidal"}
+    }, 
+    { 
+        "model" : "plants.Habit", 
+        "pk": "30", 
+        "fields" : {"description": "None"}
+    }
+]

@@ -1,0 +1,73 @@
+[
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "1", 
+        "fields" : {"description": "Loamy"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "2", 
+        "fields" : {"description": "Well-Drained"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "3", 
+        "fields" : {"description": "Fertile"}
+    },
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "4", 
+        "fields" : {"description": "Widely Adaptable"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "5", 
+        "fields" : {"description": "Mulched"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "6", 
+        "fields" : {"description": "Loose"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "7", 
+        "fields" : {"description": "Sandy"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "8", 
+        "fields" : {"description": "Clay"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "9", 
+        "fields" : {"description": "Poor-Fertile"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "10", 
+        "fields" : {"description": "Normal"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "11", 
+        "fields" : {"description": "Organic Matter"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "12", 
+        "fields" : {"description": "Slightly Acidic"}
+    }, 
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "13", 
+        "fields" : {"description": "6.0 - 7.0 pH"}
+    },
+    { 
+        "model" : "plants.Soil_Type", 
+        "pk": "14", 
+        "fields" : {"description": "None"}
+    }
+]
+        

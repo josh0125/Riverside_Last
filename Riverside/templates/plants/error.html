@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+{% load static %}
+ 
+{% block title %} Error {% endblock %}
+
+
+{% block content %}
+
+<div class="container m-5 p-5">
+    <h1 class="text-center">404</h1>
+    <p class="text-center">Sorry the action you attempted could not be done. Please go back to the <a href="{% url 'index' %}">main page</a></p>
+</div>
+
+{% endblock %}
+

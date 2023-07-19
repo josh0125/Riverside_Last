@@ -1,0 +1,170 @@
+
+    
+[
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "1", 
+        "fields" : {"description": "Loamy"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "2", 
+        "fields" : {"description": "Well-Drained"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "3", 
+        "fields" : {"description": "Moist"}
+    },
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "4", 
+        "fields" : {"description": "Widely Adaptable"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "5", 
+        "fields" : {"description": "Average"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "6", 
+        "fields" : {"description": "Deeply"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "7", 
+        "fields" : {"description": "Water Deeply Occasionally"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "8", 
+        "fields" : {"description": "Sandy"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "9", 
+        "fields" : {"description": "Normal to Sandy"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "10", 
+        "fields" : {"description": "Tolerate Poor Soil"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "11", 
+        "fields" : {"description": "Tolerate Dry Soil"}
+    },
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "12", 
+        "fields" : {"description": "Organic Matter"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "13", 
+        "fields" : {"description": "Organic Matter"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "14", 
+        "fields" : {"description": "Regularly"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "15", 
+        "fields" : {"description": "Rich"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "16", 
+        "fields" : {"description": "Constant"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "17", 
+        "fields" : {"description": "High"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "18", 
+        "fields" : {"description": "Medium"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "19", 
+        "fields" : {"description": "Dry"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "20", 
+        "fields" : {"description": "Acidic"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "21", 
+        "fields" : {"description": "Slightly Acidic"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "22", 
+        "fields" : {"description": "Neutral pH"}
+    },
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "23", 
+        "fields" : {"description": "6.0 - 7.0 pH"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "24", 
+        "fields" : {"description": "6.0 - 7.5 pH"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "25", 
+        "fields" : {"description": "6.0 - 6.5 pH"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "26", 
+        "fields" : {"description": "4.2 - 5.2 pH"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "27", 
+        "fields" : {"description": "4.5 - 5.5 pH"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "28", 
+        "fields" : {"description": "Compost Enriched Garden Soil"}
+    },
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "29", 
+        "fields" : {"description": "Water Slowly at the Base 1-2 Inches"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "30", 
+        "fields" : {"description": "Add Compost and Peat Moss"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "31", 
+        "fields" : {"description": "Place in Water but Avoid Covering the Crown"}
+    }, 
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "32", 
+        "fields" : {"description": "6.5 - 6.8 pH"}
+    },
+    { 
+        "model" : "plants.Soil_Moisture", 
+        "pk": "33", 
+        "fields" : {"description": "None"}
+    }
+]
+        

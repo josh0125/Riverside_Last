@@ -1,0 +1,242 @@
+{% extends 'base.html'%} {% load static %} {% block title %} Plants {%endblock%}
+{% block content %}
+<div class="p-1 m-1 pt-5">
+  <div class="container px-4 px-lg-5 pb-3">
+    <div class="row gx-4 gx-lg-5 align-items-center" style="background-color: #f2e8d8">
+      <div class="col-md-6 p-2">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              {% if plant.photo_1 %}
+              <img
+                src="{{ plant.photo_1.url }}"
+                alt="First Slide"
+                height="400"
+                width="100%"
+                style="object-fit: cover"
+              />
+              {% else %}
+              <img
+                src="{% static 'img/plant_1.jpg' %}"
+                alt="First Slide"
+                height="400"
+                width="100%"
+                style="object-fit: cover"
+              />
+              {% endif %}
+            </div>
+
+            <div class="carousel-item">
+              {% if plant.photo_2 %}
+              <img
+                src="{{ plant.photo_2.url }}"
+                alt="First Slide"
+                height="400"
+                width="100%"
+                style="object-fit: cover"
+              />
+              {% else %}
+              <img
+                src="{% static 'img/plant_1.jpg' %}"
+                alt="First Slide"
+                height="400"
+                width="100%"
+                style="object-fit: cover"
+              />
+              {% endif %}
+            </div>
+
+            <div class="carousel-item">
+              {% if plant.photo_3 %}
+              <img
+                src="{{ plant.photo_3.url }}"
+                alt="First Slide"
+                height="400"
+                width="100%"
+                style="object-fit: cover"
+              />
+              {% else %}
+              <img
+                src="{% static 'img/plant_1.jpg' %}"
+                alt="First Slide"
+                height="400"
+                width="100%"
+                style="object-fit: cover"
+              />
+              {% endif %}
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6 mt-4">
+        <h1 class="display-5 fw-bolder">{{ plant.variety }}</h1>
+        <div class="small mb-1 blockquote">{{ plant.botanical_name }}</div>
+        {% if plant.pronunciation != 'nan' %}
+        <div class="fs-5 mb-4">
+          <span>Pronunciation: {{ plant.pronunciation }}</span>
+        </div>
+        {% else %}
+        <div class="fs-5 mb-4"></div>
+        {% endif %}
+        <div class="row">
+          <div class="col-6">
+            <div class="fs-5 mb-1">
+              {{ plant.category }} - {{ plant.subcategory}}
+            </div>
+            <div class="fs-5 mb-1">{{ plant.aliases }}</div>
+          </div>
+          <div class="col-6">
+            <div class="fs-5 mb-1">
+              <span>Min. Active Growing Temp: {{ plant.min_temp}} </span>
+            </div>
+            <div class="fs-5 mb-1">
+              <span>USDA Zone: {{ plant.zone }} </span>
+            </div>
+          </div>
+        </div>
+
+        <p class="lead mb-5">{{ plant.description }}</p>
+
+        <p>
+          Tips: {% if plant.tips == 'nan' %} None {% else %} {{plant.tips}}
+          {%endif %}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row m-sm-3">
+        <div class="col-sm-6">
+            <div class="small mb-1 blockquote">Optimal Growing Conditions/Space</div>
+            <p>
+                Sun Exposure: {% for items in plant.sun_exposure.all %}
+                {{items.description }} 
+                {% endfor %}
+            </p>
+            <p>
+                Soil Type: {% for items in plant.soil_type.all %}
+                {{items.description }} 
+                {% endfor %}
+            </p>
+            <p>
+                Care Level: {% if plant.difficulty == 'nan' %} None 
+                {% else %} {{ plant.difficulty }}
+                {% endif %}
+            </p>
+            <p>
+            Watering Needs: {% for items in plant.soil_moisture.all %}
+            {{items.description }} 
+            {% endfor %}
+            </p>
+            <p>
+                Habit: {% for items in plant.habit.all %}
+                {{ items.description }}
+                {% endfor %}
+            </p>
+            <p>
+                Height: {% if plant.height == 'nan' %} None
+                {% else %} {{ plant.height }}"
+                {% endif %}
+            </p>
+            <p>
+                Spread: {% if plant.spread == 'nan' %} None 
+                {% else %} {{ plant.spread }}"
+                {% endif %}
+            </p>
+            <p>
+                Growth Rate: {% if plant.growth_rate == 'nan' %} None 
+                {% else %} {{plant.growth_rate}}
+                {% endif %}
+            </p>
+            <p>
+                Companion Plants: {% if plant.companion_plant == 'nan'%} None 
+                {% else %} {{ plant.companion_plant }}
+                {% endif %}
+              </p>
+
+            
+        </div>
+        <div class="col-sm-6">
+            <div class="small mb-1 blockquote">Appearance and Characteristics</div>
+            <p>
+              Blooming/Fruiting Time: {% if plant.blooming_fruit == 'nan' %} None 
+              {% else %} {{ plant.blooming_fruit }}
+              {% endif %}
+            </p>
+            <p>
+              Summer Foliage: {% if plant.summer_foliage == 'nan' %} None 
+              {% else %} {{ plant.summer_foliage}}
+              {% endif %}
+            </p>
+            <p>
+              Fall Foliage: {% if plant.foliage == 'nan' %} None 
+              {% else %} {{plant.foliage }}
+              {% endif %}
+            </p>
+            <p>
+              Flower Color: {% if plant.flower_color == 'nan' %} None 
+              {% else %} {{plant.flower_color }}
+              {% endif %}
+            </p>
+            <p>
+              Plant Uses and Characteristics: 
+                <ul>
+                {% for line in lines %}
+                    {% if line.strip != 'nan' %}
+                    <li>{{ line.strip }}</li>
+                    {% endif %}
+                {% endfor %}
+                {% if plant.deer_resistant %}
+                    <li>Deer Resistant</li>
+                {% endif %}
+                {% if plant.drought_tolerant %}
+                    <li>Drought Tolerant</li>
+                {% endif %}
+                {% if plant.attracts_pollinators %}
+                    <li>Pollin Attractor</li>
+                {% endif %}
+                {% if plant.ground_cover %}
+                    <li>Ground Cover</li>
+                {% endif %}
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

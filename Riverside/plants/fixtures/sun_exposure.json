@@ -1,0 +1,43 @@
+[
+    { 
+        "model" : "plants.Sun_Exposure", 
+        "pk": "1", 
+        "fields" : {"description": "Full Sun"}
+    }, 
+    { 
+        "model" : "plants.Sun_Exposure", 
+        "pk": "2", 
+        "fields" : {"description": "Part Sun"}
+    }, 
+    { 
+        "model" : "plants.Sun_Exposure", 
+        "pk": "3", 
+        "fields" : {"description": "Morning Sun"}
+    },
+    { 
+        "model" : "plants.Sun_Exposure", 
+        "pk": "4", 
+        "fields" : {"description": "Dappled Sun"}
+    }, 
+    { 
+        "model" : "plants.Sun_Exposure", 
+        "pk": "5", 
+        "fields" : {"description": "Full Shade"}
+    }, 
+    { 
+        "model" : "plants.Sun_Exposure", 
+        "pk": "6", 
+        "fields" : {"description": "Part Shade"}
+    }, 
+    { 
+        "model" : "plants.Sun_Exposure", 
+        "pk": "7", 
+        "fields" : {"description": "Light Shade"}
+    }, 
+    { 
+        "model" : "plants.Sun_Exposure", 
+        "pk": "8", 
+        "fields" : {"description": "None"}
+    }
+]
+       
